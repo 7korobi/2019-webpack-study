@@ -12,17 +12,17 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.3.4"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.25",
-    "babel-loader": "^8.0.2",
+    "@vue/test-utils": "^1.0.0-beta.26",
+    "babel-loader": "^8.0.4",
     "babel-preset-vue-app": "^2.0.0",
     "jest": "^23.6.0",
-    "node-sass": "^4.9.3",
-    "nodemon": "^1.11.0",
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.7",
     "sass-loader": "^7.1.0",
-    "vue-jest": "^2.6.0",
+    "vue-jest": "^3.0.1",
     "vue-test-utils": "^1.0.0-beta.11"
   }
 }
