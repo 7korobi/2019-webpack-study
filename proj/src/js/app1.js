@@ -1,3 +1,4 @@
 
-import lib1 from './lib1';
+import lib from './lib1';
 
+lib({})

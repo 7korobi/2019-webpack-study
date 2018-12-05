@@ -1,6 +1,6 @@
-import lib from '../src/js/lib1';
+import lib from '../src/js/lib2';
 
-describe("lib1", ()=> {
+describe("lib2", ()=> {
   test('snapshot', ()=> {
     expect(
       lib(process)

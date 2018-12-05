@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`lib1 snapshot 1`] = `
+exports[`lib2 snapshot 1`] = `
 Object {
   "env": Object {
     "ANDROID_HOME": "/Users/7korobi/Library/Android/sdk",
