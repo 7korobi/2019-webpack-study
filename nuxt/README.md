@@ -1,6 +1,6 @@
 # nuxt
 
-> My primo Nuxt.js project
+> My prime Nuxt.js project
 
 ## Build Setup
 
