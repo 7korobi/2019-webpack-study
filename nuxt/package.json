@@ -8,7 +8,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "test": "jest"
   },
   "babel": {
     "env": {
@@ -19,26 +20,7 @@
       }
     }
   },
-  "jest": {
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/$1",
-      "^~/(.*)$": "<rootDir>/$1"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue"
-    ],
-    "collectCoverageFrom": [
-      "*s/**/*.{js,vue}"
-    ],
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      ".*\\.(vue)$": "vue-jest"
-    }
-  },
   "dependencies": {
-    "cross-env": "^5.2.0",
     "nuxt": "^2.3.4"
   },
   "devDependencies": {
@@ -48,9 +30,12 @@
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-core": "^7.0.0-0",
     "babel-jest": "^23.6.0",
+    "cross-env": "^5.2.0",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "2.6.2",
     "jest": "^23.6.0",
+    "jsdom": "^13.0.0",
+    "jsdom-global": "^3.0.2",
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "vue-jest": "^3.0.2"

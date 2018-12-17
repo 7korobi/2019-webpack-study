@@ -1,14 +1,25 @@
-import { mount } from '@vue/test-utils'
-import Index from '~/pages/index.vue'
+import { mount, createLocalVue } from '@vue/test-utils'
+import Vuex from 'vuex'
+import IndexPage from '~/pages/index'
 
-describe('Index', () => {
+const localVue = createLocalVue()
+localVue.use(Vuex)
+
+describe('pages/index.vue', () => {
+  let wrapper
+
+  beforeEach(() => {
+    wrapper = null
+    wrapper = mount(IndexPage, {
+      localVue
+    })
+  })
+
   test('snapshot', () => {
-    const index = mount(Index)
     expect(
-      index.html()
+      wrapper.html()
     ).toMatchSnapshot()
-    expect(
-      index.isVueInstance()
-    ).toBeTruthy()
   })
 })
+
+require('jsdom-global')()
