@@ -6,7 +6,7 @@
         nuxt
       </h1>
       <h2 class="subtitle">
-        My geometric Nuxt.js project
+        My wondrous Nuxt.js project
       </h2>
       <div class="links">
         <a

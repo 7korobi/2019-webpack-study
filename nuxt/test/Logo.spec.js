@@ -6,4 +6,10 @@ describe('Logo', () => {
     const wrapper = mount(Logo)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
+  test('snapshot', () => {
+    const wrapper = mount(Logo, {
+      propsData: {}
+    })
+    expect(wrapper.html()).toMatchSnapshot()
+  })
 })
