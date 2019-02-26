@@ -1,3 +1,6 @@
 [submodule "expo"]
 	path = expo
 	url = git@github.com:7korobi/demo-expo-qrcode.git
+[submodule "nuxt"]
+	path = nuxt
+	url = git@github.com:7korobi/demo-nuxt-ts.git
